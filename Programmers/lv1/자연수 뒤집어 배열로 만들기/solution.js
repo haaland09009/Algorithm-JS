@@ -10,3 +10,18 @@ function solution(n) {
     
     return arr;
 }
+
+
+/*
+function solution(n) {
+    var answer = [];
+    
+    n = String(n);
+    
+    for (var i=n.length-1; i>=0; i--) {
+        answer.push(parseInt(n.charAt(i)));
+    }
+    
+    return answer;
+}
+*/
