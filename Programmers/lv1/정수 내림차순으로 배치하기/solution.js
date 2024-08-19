@@ -10,14 +10,6 @@ function solution(n) {
 
 /*
 function solution(n) {
-    
-    var arr = n.toString().split('').sort().reverse();
-    
-    var str = '';
-    for (let i=0; i<arr.length; i++) {
-        str += arr[i];
-    }
-    
-    return parseInt(str);
+    return parseInt(n.toString().split('').sort((a,b) => b - a).join(''));
 }
 */
